@@ -4,7 +4,7 @@ import pytest
 
 search_query = 'selene'
 valid_search = 'yashaka/selene: User-oriented Web UI browser tests in Python'
-invalid_search = 'yashaka/selene: User-oriented Web UI browser tests in Python'
+invalid_search = 'yashaka/selenium: User-oriented Web UI browser tests in Python'
 query_selector = browser.element('[name="q"]')
 id_selector = browser.element('[id="search"]')
 
